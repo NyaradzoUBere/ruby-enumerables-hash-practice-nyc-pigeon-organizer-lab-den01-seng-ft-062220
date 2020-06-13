@@ -1,5 +1,6 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
+<<<<<<< HEAD
 
   final_results = data.each_with_object ({}) do |(key, value), final_array|
     value.each do |inner_key, names|
@@ -13,5 +14,16 @@ def nyc_pigeon_organizer(data)
       final_array[name][key].push(inner_key.to_s)
     end
   end
+=======
+  binding.pry
+  
+  
+  
+  
+  
+  
+  
+  
+>>>>>>> 952814babf4043d7c5ca95ccc2d018e35e9347f4
 end
 end
